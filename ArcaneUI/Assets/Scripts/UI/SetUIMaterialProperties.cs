@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+
+//Script is kept for legacy, is not needed. Use fixed dy = abs(ddy(i.uv.y)) in shader instead of _TexelSize.y
 [ExecuteInEditMode]
 public class SetUIMaterialProperties : MonoBehaviour
 {

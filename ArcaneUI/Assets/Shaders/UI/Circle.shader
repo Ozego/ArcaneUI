@@ -79,7 +79,6 @@ Shader "Ozeg/UI/Circle"
             fixed4 _TextureSampleAdd;
             float4 _ClipRect;
             float4 _MainTex_ST;
-            float4 _TexelSize;
 
             v2f vert(appdata_t v)
             {
@@ -99,7 +98,8 @@ Shader "Ozeg/UI/Circle"
             {
                 fixed4 color = i.color;
                 fixed df = 1.-length(i.uv-.5);
-                fixed m = smoothstep(.5-_TexelSize.y,.5+_TexelSize.y,df);
+                fixed dy = abs(ddy(i.uv.y));
+                fixed m = smoothstep(.5-dy,.5+dy,df);
                 color.a *= m;
 
 

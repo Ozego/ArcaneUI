@@ -174,8 +174,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anchor: {fileID: 1365495062}
   radius: 104
-  inertia: 0.95
-  gravity: 20
+  inertia: 0.98
+  gravity: 38
 --- !u!114 &604322997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,8 +289,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anchor: {fileID: 604322995}
   radius: 104
-  inertia: 0.95
-  gravity: 20
+  inertia: 0.98
+  gravity: 38
 --- !u!114 &709545328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -392,8 +392,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anchor: {fileID: 2056894449}
   radius: 48
-  inertia: 0.95
-  gravity: 20
+  inertia: 0.98
+  gravity: 38
 --- !u!114 &791972229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -812,8 +812,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anchor: {fileID: 791972226}
   radius: 40
-  inertia: 0.95
-  gravity: 20
+  inertia: 0.98
+  gravity: 38
 --- !u!114 &1365495065
 MonoBehaviour:
   m_ObjectHideFlags: 0
